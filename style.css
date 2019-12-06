@@ -34,10 +34,10 @@
   .overlay {
     background: rgba(0,0,0,0.5);
     position: absolute;
-    bottom: 0;
+    bottom: 45%;
     left: 0;
     right: 0;
-    width: 95%;
+    width: 50%;
     max-width: 45em;
     margin: auto auto 1em;
     box-sizing: border-box;
