@@ -35,15 +35,15 @@ body {
 
 .overlay {
   background: rgba(0, 0, 0, 0.5);
+ 
   position: absolute;
-  
-  left: 0;
+  margin: auto;
+  top: 0;
   right: 0;
-  width: 50%;
-  max-width: 45em;
-  margin: auto auto 1em;
-  margin-top: 20px;
-  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 80%;
   padding: 2em;
   line-height: 1.5;
   text-align: center;
