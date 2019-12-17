@@ -1,6 +1,6 @@
 $cellBorderColor: rgba(129, 128, 128, 0.822);
 
-.wrap-collabsible {
+.wrap-collabsible2 {
   margin-bottom: 1.2rem 0;
   margin-top: 6%;
 }
@@ -9,7 +9,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-.lbl-toggle {
+.lbl-toggle2 {
   display: block;
 
   background: #13131385;
@@ -21,17 +21,18 @@ input[type="checkbox"] {
 
   color: #ffffff;
   background: #13131385;
+
   cursor: pointer;
 
   border-radius: 7px;
   transition: all 0.25s ease-out;
 }
 
-.lbl-toggle:hover {
+.lbl-toggle2:hover {
   color: #201f1bf3;
 }
 
-.lbl-toggle::before {
+.lbl-toggle2::before {
   content: " ";
   display: inline-block;
   border-top: 5px solid transparent;
@@ -44,55 +45,28 @@ input[type="checkbox"] {
   transition: transform 0.2s ease-out;
 }
 
-.toggle:checked + .lbl-toggle::before {
+.toggle2:checked + .lbl-toggle2::before {
   transform: rotate(90deg) translateX(-3px);
 }
 
-.collapsible-content {
+.collapsible-content2 {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
-.toggle:checked + .lbl-toggle + .collapsible-content {
+.toggle2:checked + .lbl-toggle2 + .collapsible-content2 {
   max-height: 100vh;
 }
 
-.toggle:checked + .lbl-toggle {
+.toggle2:checked + .lbl-toggle2 {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.collapsible-content .content-inner {
+.collapsible-content2 .content-inner {
   background: rgba(37, 37, 37, 0.267);
   border-bottom: 1px solid rgba(37, 37, 37, 0.267);
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-}
-
-#firstCell {
-  float: left;
-  width: 45%;
-  border-style: solid;
-  border-color: $cellBorderColor;
-}
-
-#secondCell {
-  float: right;
-  width: 45%;
-  border-style: solid;
-  border-color: $cellBorderColor;
-}
-
-#thridCell {
-  clear: both;
-  width: 45%;
-  margin: 0 auto;
-  border-style: solid;
-  border-color: $cellBorderColor;
 }
