@@ -65,7 +65,7 @@ input[type="checkbox"] {
 
 .collapsible-content .content-inner {
   background: rgba(37, 37, 37, 0.267);
-  border-bottom: 1px solid rgba(37, 37, 37, 0.267);
+
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
@@ -80,6 +80,7 @@ input[type="checkbox"] {
   width: 45%;
   border-style: solid;
   border-color: $cellBorderColor;
+  margin: 5px;
 }
 
 #secondCell {
@@ -87,6 +88,7 @@ input[type="checkbox"] {
   width: 45%;
   border-style: solid;
   border-color: $cellBorderColor;
+  margin: 5px;
 }
 
 #thridCell {
@@ -95,4 +97,5 @@ input[type="checkbox"] {
   margin: 0 auto;
   border-style: solid;
   border-color: $cellBorderColor;
+  margin-bottom: 5px;
 }
