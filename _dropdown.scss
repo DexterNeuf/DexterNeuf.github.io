@@ -2,7 +2,7 @@ $cellBorderColor: rgba(129, 128, 128, 0.822);
 
 .wrap-collabsible {
   margin-bottom: 1.2rem 0;
-  margin-top: 6%;
+  margin-top: 8%;
 }
 
 input[type="checkbox"] {
@@ -11,14 +11,11 @@ input[type="checkbox"] {
 
 .lbl-toggle {
   display: block;
-
   background: #13131385;
   font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
-
   padding: 1rem;
-
   color: #ffffff;
   background: #13131385;
   cursor: pointer;
@@ -65,7 +62,7 @@ input[type="checkbox"] {
 }
 
 .collapsible-content .content-inner {
-  background: rgba(37, 37, 37, 0.267);
+  background: rgba(98, 98, 98, 0.267);
 
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -82,6 +79,7 @@ input[type="checkbox"] {
   border-style: solid;
   border-color: $cellBorderColor;
   margin: 5px;
+  border-radius: 14px/42px;
 }
 
 #secondCell {

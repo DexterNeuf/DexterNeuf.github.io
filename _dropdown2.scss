@@ -1,8 +1,6 @@
-$cellBorderColor: rgba(129, 128, 128, 0.822);
-
 .wrap-collabsible2 {
   margin-bottom: 1.2rem 0;
-  margin-top: 6%;
+  margin-top: 10%;
 }
 
 input[type="checkbox"] {
@@ -29,7 +27,7 @@ input[type="checkbox"] {
 }
 
 .lbl-toggle2:hover {
-    color: #bda959f3;
+  color: #bda959f3;
 }
 
 .lbl-toggle2::before {
@@ -47,9 +45,11 @@ input[type="checkbox"] {
 
 .toggle2:checked + .lbl-toggle2::before {
   transform: rotate(90deg) translateX(-3px);
+  color: #bda959f3;
 }
 
 .collapsible-content2 {
+  background: rgba(98, 98, 98, 0.267);
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;

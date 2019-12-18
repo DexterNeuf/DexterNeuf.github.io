@@ -1,6 +1,6 @@
 .wrap-collabsible4 {
   margin-bottom: 1.2rem 0;
-  margin-top: 6%;
+  margin-top: 10%;
 }
 
 input[type="checkbox"] {
@@ -44,9 +44,11 @@ input[type="checkbox"] {
 
 .toggle4:checked + .lbl-toggle4::before {
   transform: rotate(90deg) translateX(-3px);
+  color: #bda959f3;
 }
 
 .collapsible-content4 {
+  background: rgba(98, 98, 98, 0.267);
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
