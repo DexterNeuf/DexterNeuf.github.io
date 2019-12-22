@@ -13,7 +13,7 @@ input[type="checkbox"] {
   font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   color: #ffffff;
   background: #13131385;
   cursor: pointer;
@@ -116,7 +116,7 @@ input[type="checkbox"] {
   font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   color: #ffffff;
   background: #13131385;
   cursor: pointer;
@@ -190,7 +190,7 @@ input[type="checkbox"] {
   font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   color: #ffffff;
   background: #13131385;
   cursor: pointer;
@@ -264,7 +264,7 @@ input[type="checkbox"] {
   font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   color: #ffffff;
   background: #13131385;
   cursor: pointer;
@@ -372,6 +372,7 @@ body {
   text-align: center;
   max-width: 580px;
   min-width: 380px;
+  overflow: auto;
 }
 
 h1 {
