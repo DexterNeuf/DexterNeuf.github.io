@@ -1,0 +1,116 @@
+body {
+  background: rgb(245, 245, 245);
+  color: #fff;
+  font-family: "Oxygen", sans-serif;
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 70%;
+  padding: 2em;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 580px;
+  min-width: 380px;
+  overflow: auto;
+}
+.wrap-collabsible {
+  margin-bottom: 10%;
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: normal;
+  text-shadow: 0 0 0.3em #000;
+  margin: 0 0 1em;
+  font-family: "Cinzel", serif;
+}
+
+p {
+  font-size: 11pt;
+  text-shadow: 0 0 0.3em #000;
+  margin: 1em 0;
+}
+
+a {
+  color: #fff;
+}
+
+code {
+  font-family: monospace;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: block;
+  background: #13131385;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.2em;
+  color: #ffffff;
+  background: #13131385;
+  cursor: pointer;
+  border-radius: 7px;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+  color: #bda959f3;
+}
+
+.lbl-toggle::before {
+  content: " ";
+  display: inline-block;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid currentColor;
+  vertical-align: middle;
+  margin-right: 0.7rem;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  -webkit-transform: rotate(90deg) translateX(-3px);
+  transform: rotate(90deg) translateX(-3px);
+  color: #bda959f3;
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 100vh;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  background: rgba(98, 98, 98, 0.267);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
